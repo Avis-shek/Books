@@ -1,0 +1,156 @@
+/* For fonts */
+@font-face {
+    font-family: 'kelly_slabregular';
+    src: url('kellyslab-regular-webfont.woff2') format('woff2'),
+         url('kellyslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('poppins-regular-webfont.woff2') format('woff2'),
+         url('poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  font-size: 2.7em;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+/*Addition in CSS*/
+body{
+  line-height: 20px;
+  word-spacing: 2px;
+  font-family: poppinsregular;
+  letter-spacing: 0.3px;
+  font-size: 10px;
+}
+p{
+  font-size: 1em;
+  font-family: poppinsregular;
+  text-indent: 20px;
+}
+#ul, ol{
+  list-style: disc;
+  font-family: poppinsregular;
+}
+#ul1{
+  list-style: disc;
+  font-family: poppinsregular;
+}
+ul{
+  font-family:kelly_slabregular;
+}
+#title{
+  font-size:4em;
+  font-family: kelly_slabregular;
+  letter-spacing: 3.5px;
+  padding-left: 70px;
+}
+#side-headings{
+  font-family: kelly_slabregular;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+#side-headings1{
+  font-family: kelly_slabregular;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+#side-headings3{
+  font-family: kelly_slabregular;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+img{
+  height: 9px;
+  width: 9px;
+}
+ul,ol{
+  font-size: 1em;
+  line-height: 20px;
+  word-spacing: 2px;
+
+}
+.container{
+  border:0.3px solid #a66;
+  width: 170px;
+  height: 50px;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  list-style: none;
+  font-size: 2em;
+  padding-left: 40px;
+
+}
+a{
+  text-decoration: none;
+  color: #570404;
+}
+.text{
+  text-decoration: none;
+}
+a:not(.text):visited{
+  color:#570404;
+}
+a:not(.text):focus{
+  text-decoration: none;
+  color: blue;
+}
+a:not(.text):hover{
+  text-decoration: none;
+  z-index: -1;
+}
+a:hover{
+  color:red;
+}
+.active{
+  color: blue;
+  z-index: 1;
+}
+a, a:active, a:focus{
+        outline: none;
+}

@@ -1,0 +1,191 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+header .nav-link .btn {
+
+    font-family: var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+}
+
+header .nav-link .btn:hover {
+
+    background: var(--bggradient);
+
+
+}
+
+.row{
+    padding-top: 6rem;
+}
+
+.col-md-6 h2{
+    font-family: var(--Patua);
+}
+.d{
+    font-family: var(--Snigle-font);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.checked{
+    color: orange;
+}
+.btn{
+    background: var(--bggradient);
+}
+.btn:hover{
+    background:rebeccapurple;
+}
+
+img{
+  
+    padding-left: 3rem;
+    width: 90%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+/**footer **/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+
+
+footer .column a {
+    color: #ff512f;
+
+}
+
+footer .column a+a {
+    padding: 0.0.5em;
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+   footer .row .col-md-5{
+       margin-top: -0.8rem;
+   }
+    
+}
+
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+    .section-1 .col-md-6{
+      padding-left:2.7rem ;
+    }
+
+  
+
+    footer .row .col-md-3 {
+        padding-top: 2rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width:320px) {
+
+  .section-1 .col-md-4 img{
+      margin-left: -0.8rem;
+  }
+
+
+}

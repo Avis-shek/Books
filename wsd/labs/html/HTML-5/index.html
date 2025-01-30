@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Structured form</title>
+</head>
+<body>	
+	<div>
+<form method="post" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+        <h1>Payment form</h1>
+        <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        
+            <h2>Contact information</h2>
+            <fieldset>
+              <legend>Title</legend>
+              <ul>
+                  <li>
+                    <label>
+                      <input type="radio" name="title" value="A">
+                      Ace
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="radio" name="title" value="K">
+                      King
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="radio" name="title" value="Q">
+                      Queen
+                    </label>
+                  </li>
+              </ul>
+            </fieldset>
+            <p>
+              <label>
+                <span>Name: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="text" name="username">
+            </p>
+            <p>
+              <label>
+                <span>E-mail: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="email" name="usermail">
+            </p>
+            <p>
+              <label>
+                <span>Password: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="password" name="password">
+            </p>
+        
+        
+            <h2>Payment information</h2>
+            <p>
+              <label>
+                <span>Card type:</span>
+              </label>
+              <select name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+            </p>
+            <p>
+              <label>
+                <span>Card number:</span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+                <input type="tel" name="cardnumber">
+            </p>
+            <p>
+              <label>
+                <span>Expiration date:</span>
+                <strong><abbr title="required">*</abbr></strong>
+                <em>formatted as mm/yy</em>
+              </label>
+              <input type="date" name="expiration">
+            </p>
+        
+        
+            <p> <button type="submit">Validate the payment</button> </p>
+        
+    </form>
+</div>
+</body></html>
+</body>
+</html>

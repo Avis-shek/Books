@@ -1,0 +1,345 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Rubik);
+
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+header .nav-link .btn {
+
+    font-family: var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+}
+
+header .nav-link .btn:hover {
+
+    background: var(--bggradient);
+
+}
+
+
+
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(../IMAGES/bg.jpg);
+    background-size: cover;
+}
+
+.contact .content{
+    padding-top: 3rem;
+    max-width: 800px;
+    text-align: center;
+
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:#fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color:white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+
+.contactForm h2{
+   font-size: 30px;
+   color: #333;
+   font-weight: 500; 
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+
+    pointer-events: none;
+    transition: 0,5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~s pan,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="Submit"]{
+    width: 100px;
+    background:var(--bggradient);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.map{
+   
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+    
+       
+    
+   
+    
+   
+}
+
+.catch{ font-family: var(--Patua);
+    padding-top: 6rem;
+    color:White;
+    padding-bottom: 0.5rem;
+
+}
+
+.visit {
+    font-family: var(--Lobster);
+    padding-top: 2rem;
+    color: rebeccapurple;
+    padding-bottom: 1rem;
+
+}
+.catch .fas{
+    color: rebeccapurple;
+}
+
+.fas:hover{
+    color: red;
+}
+
+
+
+
+/**footer **/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+
+
+footer .column a {
+    color: #ff512f;
+
+}
+
+footer .column a+a {
+    padding: 0.0.5em;
+}
+
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction:column;
+    }
+    .container .contactInfo{
+      margin-bottom: 40px;  
+    }
+    .container .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    footer .row .col-md-3 {
+        padding-top: 2rem;
+    }
+    .visit h1{
+        font-size:2.1rem;
+    }
+    footer .row .col-md-5 {
+        margin-top: -0.8rem;
+    }
+
+}
+
+@media only screen and (max-width:320px) { 
+     .visit h1 {
+         font-size: 1.4rem;
+     }
+     .contact .content{
+         margin-left: -2rem;
+     }
+     .contact .contactInfo {
+         margin-left: -6.9rem;
+     }
+}
+

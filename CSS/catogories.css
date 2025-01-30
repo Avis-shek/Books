@@ -1,0 +1,315 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .nav-link .btn {
+
+    font-family: var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+}
+
+header .nav-link .btn:hover {
+
+    background: var(--bggradient);
+
+
+}
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .row .col-md-7 .btn:hover {
+    background: gray;
+     border-width: 0;
+
+
+}
+
+header .row .col-md-5 img {
+    padding-top: 12vmin;
+    width: 100%;
+    height: 350px;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+header .row .col-md-5 img:hover {
+    transform: scale(1.1);
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    font-size: 8vmin;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+
+/** section-1**/
+
+
+.section-1 .cards{
+    padding-bottom: 6rem;
+}
+
+.section-2 img{
+     transition: transform .5s ease;
+     overflow: hidden;
+}
+.section-2  img:hover{
+transform: scale(1.1);
+}
+
+
+.section-1 .feature-text {
+    padding-top: 14vmin;
+    padding-bottom: 4vmin;
+    font-family: var(--Patua);
+    font-weight: bold;
+}
+
+.section-1 .cards .card .card-body {
+
+    background: lightgray;
+}
+
+.section-1 .cards .card .card-title {
+
+    padding: 1.4rem 2.5rem;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.section-1 .cards .card {
+    padding-left: 0.5vmin;
+    padding-right: 0, 5vmin;
+    background: white;
+    margin: 0vmin;
+    overflow: hidden;
+
+}
+
+.section-1 .cards .card img {
+    transition: transform .5s ease;
+}
+
+.section-1 .cards .card img:hover {
+    transform: scale(1.5);
+
+}
+
+.section-1 .cards .card .btn:hover {
+    background: black;
+     border-width: 0;
+}
+
+
+/** section-2 **/
+.news-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section-2 .trending{
+    font-family: var(--Patua);
+    padding-bottom: 5rem;
+}
+
+.section-2 .row{
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    background: whitesmoke;
+    
+    
+}
+.section-2 .row:hover{
+        
+         background: rgb(207, 231, 247);
+}
+
+.section-2 .row .col-md-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-2 .row .col-md-6 h3{
+    font-family: var(--Snigle-font);
+}
+
+
+.section-2 .row .col-md-6 p{
+    font-family: var(--Rubik);
+}
+
+
+
+.read{
+    padding-top: 3rem;
+}
+
+.read .btn:hover{
+    background:var(--bggradient);
+     border-width: 0;
+}
+
+
+/**footer **/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+
+
+footer .column a {
+    color: #ff512f;
+
+}
+
+footer .column a+a {
+    padding: 0.0.5em;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    footer .col-md-5{
+        margin-top: -1rem;
+    }
+    footer .column a+a {
+       padding: 0.0.1em;
+    }
+
+   
+}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+     footer .row .col-md-3 {
+         padding-top: 2rem;
+     }
+    footer .row .col-md-5 {
+        margin-top: -0.8rem;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+footer .col-md-3{
+    padding-top: 3rem;
+}
+}
+
+

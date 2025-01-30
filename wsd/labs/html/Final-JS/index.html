@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Home Page</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+	<style type="text/css">
+	body {
+		background-color: #ccc;
+	}
+		/*Background Image*/
+		#backgroundImage {
+			width: 100%;
+			height: 100vh;
+			background-image: url("Images/26.jpg");
+			background-size: 100vw 100vh;
+		}
+
+		/*Introduction text and landing image*/
+		#banner {
+			top: 36vh; 
+			position: absolute;
+		}
+
+		#banner h3 {
+			color: rgba(255,255,255,0.8);
+			font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			width: 98vw;
+			font-weight: 300;
+			letter-spacing: 1px;
+			font-size: 23px;
+			line-height: 33px;	
+		}
+
+		#banner a .button{
+			background-color: black;
+			border: none;
+			border-radius: 15px;
+			color: white;
+			padding: 10px 20px;
+			text-decoration: none;
+			font-size: 18px;
+			cursor: pointer;
+			margin-left: 42vw;
+		}
+
+		#banner a .button:hover {
+			background: purple;
+		}
+
+		/*About section */
+		#about {
+			font-family: Georgia,serif;	
+			font-size: 17px;
+		}
+
+		#about h1 {
+			text-align: center; 
+			color: #323643;
+		}
+
+		#about h3 {
+			color: #323643;
+		}
+
+		#about h4 {
+			border-left: 5px solid #C0B193; 
+			color: #C0B193; 
+			padding-left: 3px;
+		}
+
+		.emphasize {
+			text-align: center; 
+			color: #323643;
+		}
+	</style>
+</head>
+<body>
+	<header id="backgroundImage">
+		<!-- Creating a navbar -->
+		<nav>
+			<div class="menubar">
+				<ul style="transition: 1s">
+					<li><a href="#" style="color: #fecd08">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+					<button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i> </button>
+					  <div class="dropdown-container">
+					    <button id="day">Day</button>
+					    <button id="Night">Night</button>
+					    <button id="Highcontrast">Highcontrast</button>
+					  </div>
+					</div>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="banner">
+			<h3>Hi, I am Avishek Ghimire. <br>Let's go through  my portfolio website.</h3>
+			<a href="#about">
+				<button class="button">
+					<i class="fa fa-play" aria-hidden="true" style="font-size: 14px; padding-right: 3px;"></i>
+					Know Me Better
+				</button>
+			</a>
+		</section>
+	</header>
+
+	<!-- Content of home page -->
+	<div class="content">
+		<section id="about">
+			<h1>KNOW  ME BETTER</h1>
+			<hr class="hrStyle">
+			<h4>About Me</h4>
+		
+
+			<table style="width: 100%">
+				<tr>
+					<td rowspan="2" valign="top" style="padding-right: 20px">
+						<p>
+						Greetings from Avishek . I am a young and dynamic individual, aged 19, Currently i am pursuing my Bachelor from The British College in Nepal. My aim is to become the most successfull Developer all over the world. I love to listen songs while raining, at night. I enjoy to play outdoor game as well as indoor. i am big fan of American Musician TWENTY ONE PILOT. I also love to watch hollywood movies and big fan of Marvel Stdio
+						</p>
+					
+						<p><div class="data"></div>
+		        <dl>		            
+		            <dt>Education</dt>
+		            <dd>
+		            	<br>Completed My school from Siddhartha Secondary School with 3.20 GPA,
+		            	<br>Completed my High School from Makwanpur Multiple Campus with 3.10 GPA
+		            	<br>Currently pursuing Bachelor on BSc. Computing in The British College.
+		            	<br><br>  
+		            </dd>	            
+		            <dt>Skills</dt>
+		            <dd>
+		            	
+		            	Web Developing (HTML, CSS, JS and Bootstrap),
+						<br>Compettetive Pubg Mobile Player,
+		            	<br>C Developer,
+		            	<br>Basic Python,
+						<br>Basic JAVA Programming Language
+		            </dd>	            
+		            <dt>Experience</dt>
+		            <dd>
+ 						Worked as a Database manager for 1 year,
+ 						<br>Worked in a IT company for 3 months,
+ 						<br> Have Created More than 10 website Template.
+		            </dd>            
+		            <dt>Hobbies</dt>
+		            <dd>
+		            	Playing indoor games as well as outdoor
+		            	<br>Listening Music
+		            	<br>Watching Movies
+		            	<br>Playing online games
+						<br>Love to play Guiter
+		            </dd>
+		            <dt>References</dt>
+		            <dd>
+		            	Available on request
+		            </dd>
+		    	</p>
+					</td>
+
+					<td>
+						<span>
+							<img src="Images/1.jpg" alt="My Photo" width="100%">
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>
+							<img src="Images/2.png" alt="My Photo" width="100%">
+						</span>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+
+	<!-- Creating consistent footer -->
+	<footer>
+		<section id="footer">
+			<ul>
+				<li><a target="_blank" href="https://www.facebook.com/ "target="blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a target="_blank" href="https://twitter.com/ "target="blank" title="Github"><i class="fab fa-twitter"></i></a></li>
+				
+				<li><a target="_blank" href="https://www.youtube.com/" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+				
+			</ul>
+		</section>
+		<section id="copyright">
+			&#169 2020 Copyright: Avishek Ghimire | All Rights Reserved
+		</section>
+	</footer>
+
+	<!-- Go to Top icon -->
+	<a href="#">
+		<img src="Images/top.png" alt="Go-to-top icon" id="scrollTop">
+	</a>
+
+	<script type="text/javascript">
+
+		// Function to change Navbar background color and display scroll top icon when top scroll is greater than 50
+		window.onscroll = function (){
+			var scrollPosY = window.pageYOffset;
+			var navBar = document.querySelector('nav');
+			var scrollTopIcon = document.getElementById("scrollTop");
+			if(scrollPosY > 50) {
+          		navBar.className = ('dark');
+          		scrollTopIcon.style.visibility = "visible";
+    		} 
+			else {
+         		navBar.className =  ('');
+         		scrollTopIcon.style.visibility =  "hidden";
+    		}
+		}
+
+	</script>
+	<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+window.onscroll = function viewScrollTopIcon(){
+  var scrollPosY = window.pageYOffset;
+  var scrollTopIcon = document.getElementById("scrollTop");
+  if(scrollPosY > 60) {
+      scrollTopIcon.style.visibility = "visible";
+  }
+  else {
+    scrollTopIcon.style.visibility =  "hidden";
+  }
+}
+ var day= document.getElementById("day")
+ day.addEventListener('click',function(){
+  document.body.style.color = "black";
+  document.body.style.backgroundColor = "white";
+ });
+ var day= document.getElementById("Night")
+ day.addEventListener('click',function(){
+  document.body.style.color = "black";
+  document.body.style.backgroundColor = "gray";
+ });
+ var day= document.getElementById("Highcontrast")
+ day.addEventListener('click',function(){
+  document.body.style.color = "blue";
+  document.body.style.backgroundColor="black";
+ });
+</script>
+</body>
+</html>

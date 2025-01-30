@@ -1,0 +1,538 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+header .nav-link .btn{
+    
+    font-family:var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+    }
+header .nav-link .btn:hover{
+  
+    background:var(--bggradient);
+   
+
+}
+
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .row .col-md-7 .btn:hover{
+  background: gray;
+   border-width: 0;
+  
+
+}
+
+header .row .col-md-5 img {
+    padding-top: 12vmin;
+    width: 100%;
+    height: 350px;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+header .row .col-md-5 img:hover {
+   transform: scale(1.1);
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    font-size: 8vmin;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+
+/** section-1**/
+
+
+.section-1 .feature-text {
+    padding-top: 14vmin;
+    padding-bottom: 4vmin;
+    font-family:var(--Patua);
+    font-weight: bold;
+}
+
+.section-1 .cards .card .card-body{
+     
+    background: lightgray;
+}
+
+.section-1 .cards .card .card-title{
+    
+    padding: 1.4rem 2.5rem;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+ 
+.section-1 .cards .card{
+    padding-left: 0.5vmin;
+    padding-right: 0,5vmin;
+    background: white;
+    margin: 0vmin;
+    overflow: hidden;
+
+    }
+    .section-1 .cards .card img{
+        transition: transform .5s ease;
+    }
+.section-1 .cards .card img:hover{
+transform: scale(1.5);
+
+}
+    
+   .section-1 .cards .card .btn:hover{
+       background: black;
+        border-width: 0;
+   }
+  
+
+/** section-2 **/
+
+.section-2 .selling-text {
+    padding-top: 14vmin;
+    padding-bottom: 4vmin;
+    font-family: var(--Patua);
+    font-weight: bold;
+}
+
+
+
+.section-2 .cards2 .card .card-title {
+
+   padding-bottom: -0.5vmin;
+    font-weight: bold;
+    font-size: 4vmin;
+    font-family: var(--Patua);
+}
+
+.section-2 .cards2 .card .title h6{
+    color:red;
+}
+
+.section-2 .cards2 .card .title .type{
+    padding-top: -0.8vmin;
+
+    color:gray;
+}
+.section-2 .cards2 .card .title p{
+    padding-top: -0.3vmin;
+    color:black;
+}
+
+.section-2 .cards2 .card img{
+    height: 220px;
+    width: 200px;
+    padding-right: 1.1vmin !important;
+    padding-bottom: -1.5vmin;
+    padding-top:1vmin;
+    transition: transform .5s ease;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.section-2 .cards2 .card img:hover{
+     transform: scale(1.1);
+}
+.section-2 .cards2 .card .btn:hover{
+background:var(--bggradient);
+ border-width: 0;
+}
+.section-2 .cards2 .card{
+    background: whitesmoke;
+    padding-bottom: -2vmin;
+    
+}
+
+/** section-3**/
+
+.purchase>h1 {
+    
+    font-size: 4em;
+    padding-top: 15vmin;
+    padding-bottom: 1em;
+    font-family: var(--Lobster);
+}
+
+
+
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.card div {
+    padding: 0;
+    margin: 0;
+
+}
+
+.section-3 .cards .title {
+    background: black;
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmins;
+}
+
+.card .card-text{
+    
+    padding: 2.5rem 3rem;
+    color: var(--light-black)
+}
+.section-3 .card p{
+    color: white;
+}
+.section-3 .card h5{
+    color: white;
+}
+
+.card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1 {
+    color: white;
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+
+.section-3 .card .btn{
+    background: white;
+    color: black;
+     border-width: 0;
+   
+}
+.section-3 .card .btn:hover{
+    color: black;
+    background: var(--bggradient);
+     border-width: 0;
+}
+
+
+
+
+/** section-4 **/
+
+
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+
+}
+
+.section-4 .card .card-bodyrd-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 200px;
+}
+
+.video{
+    background: var(--bggradient);
+}
+
+#myVideo {
+    
+    position: relative;
+    margin-left: -1.5rem;
+    padding-bottom: 3rem;
+    height: 100%;
+    width: 110%;
+    
+}
+.pright img{
+    height: 80%;
+    width: 70%;
+    background: transparent;
+}
+.pleft img {
+    height: 80%;
+    width: 70%;
+}
+
+
+.vcontent {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    
+    color:black;
+    width: 100%;
+    font-family: var(--Patua);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lab img{
+    padding-top: 5rem;
+    width: 30%;
+     transition: transform .5s ease;
+     overflow: hidden;
+     margin: 0px;
+  
+}
+.last h1{
+    font-family: var(--Patua);
+    padding-bottom: 3rem;
+}
+
+.lab img:hover{
+   transform: scale(1.1);
+}
+
+.last a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+/**footer **/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    
+    border: none;
+}
+
+
+
+footer .column a{
+    color: #ff512f;
+    
+}
+
+footer .column a+a {
+    padding: 0.0.5em;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+
+    }
+
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+       
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+    footer .row .col-md-5 {
+        margin-top: -0.8rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+    footer .row .col-md-3{
+        padding-top: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width:320px) {
+    
+    
+    .section-4 .card {
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -14vmin;
+    }
+
+    .section-3 .card .btn{
+       
+        margin-left: -1.4rem;
+    }
+}

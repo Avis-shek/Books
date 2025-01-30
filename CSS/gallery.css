@@ -1,0 +1,221 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+header .nav-link .btn {
+
+    font-family: var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+}
+
+header .nav-link .btn:hover {
+
+    background: var(--bggradient);
+
+
+}
+main{
+    background-image: url(../IMAGES/bg2.jpg);
+    background-size: cover;
+
+}
+.row .column img{
+transition: transform .5s ease;
+overflow: hidden;
+}
+
+.row .column img:hover{
+    transform: scale(1.1);
+}
+
+.text h1{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    font-family: var(--Patua);
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.thanks h1{
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    font-family: var(--Lobster);
+    font-size: 3rem;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.row .col-md-3 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+
+    border: none;
+}
+
+
+
+footer .columns a {
+    color: #ff512f;
+
+}
+
+footer .columns a+a {
+    padding: 0.0.5em;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+   footer .row .col-md-5 {
+       margin-top: -0.8rem;
+   }
+
+}
+
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+     footer .row .col-md-3 {
+         padding-top: 2rem;
+     }
+}
+
+@media only screen and (max-width:320px) {
+    
+}

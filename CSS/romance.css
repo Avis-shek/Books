@@ -1,0 +1,226 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua one", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem t
+}
+
+header .nav-link:hover {
+    color: black;
+}
+header .nav-link .btn {
+
+    font-family: var(--Patua);
+    background: white;
+    border-radius: 90rem;
+    margin-top: -1.3rem;
+    border-width: 0;
+}
+
+header .nav-link .btn:hover {
+
+    background: var(--bggradient);
+
+
+}
+
+
+.section-1 .books h1{
+    padding-top: 14vmin;
+    padding-bottom: 4vmin;
+    font-family: var(--Patua);
+    font-weight: bold;
+}
+.section-1 .cards .card .card-title {
+
+    padding-bottom: -0.5vmin;
+    font-weight: bold;
+    font-size: 4vmin;
+    font-family: var(--Patua);
+}
+
+.section-1 .cards .card .title h6 {
+    color: red;
+}
+
+.section-1 .cards2 .card .title .type {
+    padding-top: -0.8vmin;
+
+    color: gray;
+}
+
+.section-1 .cards .card .title p {
+    padding-top: -0.3vmin;
+    color: black;
+}
+
+.section-1 .cards .card img {
+    height: 220px;
+    width: 200px;
+    padding-right: 1.1vmin !important;
+    padding-bottom: -1.5vmin;
+    padding-top: 1vmin;
+    transition: transform .5s ease;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.section-1 .cards .card img:hover {
+    transform: scale(1.1);
+}
+
+.btn:hover{
+    background:var(--bggradient);
+     border-width: 0;
+    
+}
+
+.section-1 .cards .card {
+    background:whitesmoke;
+    
+
+}
+.section-1{
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**footer **/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+
+footer .number {
+    color: grey;
+
+}
+
+footer i {
+    padding-right: 1rem;
+}
+
+footer p>span {
+    color: whitesmoke;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+
+
+footer .column a {
+    color: #ff512f;
+
+}
+
+footer .column a+a {
+    padding: 0.0.5em;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .card{
+        width: 17rem !important;
+        margin-left: -3.7rem;
+    }
+    footer .row .col-md-5 {
+        margin-top: -0.8rem;
+    }
+
+}
+
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+    .section-1 .card{
+        margin-left: 3rem;
+    }
+
+    footer .row .col-md-3 {
+        padding-top: 2rem;
+    }
+
+   
+
+}
+
+@media only screen and (max-width:320px) {
+   
+ .section-1 .card {
+     margin-left: -0.5rem;
+ }
+
+   
+}
